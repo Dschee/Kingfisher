@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005C332320861D6E00B207CC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005C332220861D6E00B207CC /* Accelerate.framework */; };
+		005C332520861D7700B207CC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005C332420861D7600B207CC /* Accelerate.framework */; };
+		005C332720861D7D00B207CC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005C332620861D7C00B207CC /* Accelerate.framework */; };
 		008050DF31B6F246FFC8BEA1 /* libPods-KingfisherTests-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1446B878F6627F0B79BB366C /* libPods-KingfisherTests-tvOS.a */; };
 		182FFF781CC9ACBA004B728D /* NSButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182FFF771CC9ACBA004B728D /* NSButton+Kingfisher.swift */; };
 		185218B61CC07F8300BD58DE /* NSButtonExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185218B51CC07F8300BD58DE /* NSButtonExtensionTests.swift */; };
@@ -356,6 +359,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		005C332220861D6E00B207CC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		005C332420861D7600B207CC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS11.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		005C332620861D7C00B207CC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		0268A213AE27BC6133BC5E0F /* libPods-KingfisherTests-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KingfisherTests-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		033CD4A1D8C6D03D7AC150BE /* Pods-KingfisherTests-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingfisherTests-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KingfisherTests-tvOS/Pods-KingfisherTests-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		1446B878F6627F0B79BB366C /* libPods-KingfisherTests-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KingfisherTests-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -547,6 +553,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005C332720861D7D00B207CC /* Accelerate.framework in Frameworks */,
 				4B3766A21C47944D0001443F /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -573,6 +580,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005C332520861D7700B207CC /* Accelerate.framework in Frameworks */,
 				4B3766A01C4794460001443F /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +596,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005C332320861D6E00B207CC /* Accelerate.framework in Frameworks */,
 				4B164AD01B8D556900768EC6 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -994,6 +1003,9 @@
 		EA99D30544BD22799F7A5367 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				005C332220861D6E00B207CC /* Accelerate.framework */,
+				005C332420861D7600B207CC /* Accelerate.framework */,
+				005C332620861D7C00B207CC /* Accelerate.framework */,
 				4B3766A11C47944D0001443F /* CFNetwork.framework */,
 				4B37669F1C4794460001443F /* CFNetwork.framework */,
 				4B164ACE1B8D554200768EC6 /* CFNetwork.framework */,
